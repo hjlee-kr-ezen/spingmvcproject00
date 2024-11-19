@@ -12,4 +12,9 @@ public class BoardController {
 	public String list() {
 		return "board/list";
 	}
+	
+	@GetMapping("/view.do")
+	public String view() {
+		return "board/view";
+	}
 }
